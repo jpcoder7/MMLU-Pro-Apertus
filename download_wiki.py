@@ -1,5 +1,3 @@
-# mkdir /workspace/rag/wiki
-
 python - << 'PY'
 import json
 from datasets import load_dataset
