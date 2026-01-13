@@ -1,9 +1,3 @@
-"""
-touch /workspace/rag/02_build_faiss.py
-nano /workspace/rag/02_build_faiss.py
-
-"""
-
 import argparse
 import json
 from pathlib import Path
