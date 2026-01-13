@@ -1,9 +1,3 @@
-""" (create folder and place code inside)
-mkdir -p /workspace/rag
-touch /workspace/rag/prepare_wiki_rag.py
-nano prepare_wiki_rag.py
-"""
-
 import argparse
 import json
 import re
@@ -51,10 +45,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-""" (run program)
-python /workspace/rag/prepare_wiki_rag.py \
-  --input_jsonl /workspace/wiki/enwiki_20231101_preprocessed.jsonl \
-  --out_jsonl /workspace/rag/wiki_data.jsonl
-"""
